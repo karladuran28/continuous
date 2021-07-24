@@ -18,12 +18,13 @@ public class RelationalOperatorTest {
 		assertTrue(tester.isGreater(2, 1));
 	}
 	
-	//----TODO
-	/*
 	@Test
-	public void isGreaterTest3() {}
-	*/
+	public void isGreaterTest3() {
+		RelationalOperator tester = new RelationalOperator();
+		assertFalse(tester.isGreater(5, 5));
+	}
 	
+
 	@Test
 	public void isLessTest1() {
 		RelationalOperator tester = new RelationalOperator();
