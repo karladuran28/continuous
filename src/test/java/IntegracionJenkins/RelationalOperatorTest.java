@@ -36,10 +36,11 @@ public class RelationalOperatorTest {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.isLess(5, 1));
 	}
-	
-	//----TODO
-	/*
+
 	@Test
-	public void isLessTest3() {}
-	*/
+	public void isLessTest3() {
+		RelationalOperator tester = new RelationalOperator();
+		assertFalse(tester.isLess(4, 4));
+	}
+
 }
